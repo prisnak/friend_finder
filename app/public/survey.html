@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+  
+	<title>Friend Finder</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!-- http://localhost:3000/assets/css/style.css -->
+
+	<!-- Bootstrap stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+</head>
+<body>
+  <form action="/submit" method="POST">
+    <div class="container">
+
+        <h2>Survey Questions</h2>
+        <hr>
+    
+        <h5>About You</h5>
+        <h6>Name (Required)</h6>
+        <input type="text" id="name" class="form-control" name="name" value="name" required>
+    
+        <h6>Link to Photo Image</h6>
+        <input type="text" id="photo" class="form-control" name="photo" value="photo">
+    
+        <hr>
+
+        <div class="questions">
+            <p>Question 1</p>
+            <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+                <input type="radio" name="q1" value="1">1 (Strongly Disagree)<br>
+                <input type="radio" name="q1" value="2">2<br>
+                <input type="radio" name="q1" value="3">3<br>
+                <input type="radio" name="q1" value="4">4<br>
+                <input type="radio" name="q1" value="5">5 (Strongly Agree)<br>
+        </div>
+
+        <div class="questions">
+                <p>Question 2</p>
+                <p>Generally speaking, you rely more on your experience than your imagination.</p>
+                      <input type="radio" name="q2" value="1">1 (Strongly Disagree)<br>
+                      <input type="radio" name="q2" value="2">2<br>
+                      <input type="radio" name="q2" value="3">3<br>
+                      <input type="radio" name="q2" value="4">4<br>
+                      <input type="radio" name="q2" value="5">5 (Strongly Agree)<br>
+        </div>
+
+        <div class="questions">
+                <p>Question 3</p>
+                <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+                    
+                        <input type="radio" name="q3" value="1">1 (Strongly Disagree)<br>
+                        <input type="radio" name="q3" value="2">2<br>
+                        <input type="radio" name="q3" value="3">3<br>
+                        <input type="radio" name="q3" value="4">4<br>
+                        <input type="radio" name="q3" value="5">5 (Strongly Agree)<br>
+  
+        </div>
+
+        <div class="questions">
+                <p>Question 4</p>
+                <p>You rarely do something just out of sheer curiosity.</p>
+                
+                    <input type="radio" name="q4" value="1">1 (Strongly Disagree)<br>
+                    <input type="radio" name="q4" value="2">2<br>
+                    <input type="radio" name="q4" value="3">3<br>
+                    <input type="radio" name="q4" value="4">4<br>
+                    <input type="radio" name="q4" value="5">5 (Strongly Agree)<br>
+                  
+        </div>
+
+        <div class="questions">
+                <p>Question 5</p>
+                <p>People can rarely upset you.</p>
+                
+                    <input type="radio" name="q5" value="1">1 (Strongly Disagree)<br>
+                    <input type="radio" name="q5" value="2">2<br>
+                    <input type="radio" name="q5" value="3">3<br>
+                    <input type="radio" name="q5" value="4">4<br>
+                    <input type="radio" name="q5" value="5">5 (Strongly Agree)<br>
+                  
+        </div>
+
+        <div class="questions">
+                <p>Question 6</p>
+                <p>It is often difficult for you to relate to other people’s feelings.</p>
+                
+                    <input type="radio" name="q6" value="1">1 (Strongly Disagree)<br>
+                    <input type="radio" name="q6" value="2">2<br>
+                    <input type="radio" name="q6" value="3">3<br>
+                    <input type="radio" name="q6" value="4">4<br>
+                    <input type="radio" name="q6" value="5">5 (Strongly Agree)<br>
+                  
+        </div>
+
+        <div class="questions">
+                <p>Question 7</p>
+                <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+                
+                    <input type="radio" name="q7" value="1">1 (Strongly Disagree)<br>
+                    <input type="radio" name="q7" value="2">2<br>
+                    <input type="radio" name="q7" value="3">3<br>
+                    <input type="radio" name="q7" value="4">4<br>
+                    <input type="radio" name="q7" value="5">5 (Strongly Agree)<br>
+                  
+        </div>
+
+        <div class="questions">
+                <p>Question 8</p>
+                <p>You rarely get carried away by fantasies and ideas.</p>
+                
+                    <input type="radio" name="q8" value="1">1 (Strongly Disagree)<br>
+                    <input type="radio" name="q8" value="2">2<br>
+                    <input type="radio" name="q8" value="3">3<br>
+                    <input type="radio" name="q8" value="4">4<br>
+                    <input type="radio" name="q8" value="5">5 (Strongly Agree)<br>
+                  
+        </div>
+
+        <div class="questions">
+                <p>Question 9</p>
+                <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+                
+                    <input type="radio" name="q9" value="1">1 (Strongly Disagree)<br>
+                    <input type="radio" name="q9" value="2">2<br>
+                    <input type="radio" name="q9" value="3">3<br>
+                    <input type="radio" name="q9" value="4">4<br>
+                    <input type="radio" name="q9" value="5">5 (Strongly Agree)<br>
+                  
+        </div>
+
+        <div class="questions">
+                <p>Question 10</p>
+                <p>You feel more energetic after spending time with a group of people.</p>
+                
+                    <input type="radio" name="q10" value="1">1 (Strongly Disagree)<br>
+                    <input type="radio" name="q10" value="2">2<br>
+                    <input type="radio" name="q10" value="3">3<br>
+                    <input type="radio" name="q10" value="4">4<br>
+                    <input type="radio" name="q10" value="5">5 (Strongly Agree)<br>
+                  
+        </div>
+    
+        <br>
+        <br>
+    
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+         Submit</button>
+
+        </form>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="/assets/javascript/script.js"></script>
+</body>
+</html>
